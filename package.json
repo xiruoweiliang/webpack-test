@@ -1,0 +1,19 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "webpack test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set WEBPACK_ENV=dev && webpack-dev-server --port 9999 --inline",  
+    "build": "set WEBPACK_ENV=online && webpack -p"
+  },
+  "author": "liang",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^1.15.0"
+  },
+  "dependencies": {}
+}
